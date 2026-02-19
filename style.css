@@ -10,6 +10,7 @@ html {
 
 body {
     background-color: rgb(220, 127, 65);
+    font-family: fantasy;
 }
 
 
@@ -17,12 +18,12 @@ h1 {
     text-align: center;
     font-family: 'Papyrus', fantasy;
     font-size: 50px;
-    width: 200px;
+    width: 1000px;
     border-color: black;
     margin: auto;
 }
 
-li {
+.index-list li {
     font-family: fantasy;
     text-align: center;
     margin: 100px auto;
@@ -30,9 +31,28 @@ li {
     border-left: 1px double black;
 }
 
+.home {
+    font-family: fantasy;
+    color: black;
+    background-color: white;
+}
+
 img {
     width: 750px;
     border: 5px solid black;
     margin: 0 auto;
     display: block;
+}
+
+.copyright {
+    width: 750px;
+    margin: 5px auto;
+}
+
+.desc,
+.ingredients,
+.steps {
+    padding: 0px 10px;
+    margin: 0 auto;
+    width: 1050px;
 }
